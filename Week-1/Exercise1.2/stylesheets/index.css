@@ -158,7 +158,6 @@ table {
 .content-container {
   height: 90vh;
   width:100%;
-  background-color: antiquewhite;
 }
 
 .hero-container {
@@ -244,5 +243,32 @@ img {
 
 .control-container {
   width: 50%;
+}
+
+.table-container {
+  margin: 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  width: 26%;
+  padding: 1rem;
+}
+
+td button {
+  color: blue;
+  background-color: #f0f0f0;
+  padding: 0.3rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+i, tr, button {
+  cursor: pointer;
 }
 
