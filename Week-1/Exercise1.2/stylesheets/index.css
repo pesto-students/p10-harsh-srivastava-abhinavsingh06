@@ -154,3 +154,54 @@ table {
   align-items: center;
   justify-content: space-around;
 }
+
+.content-container {
+  height: 90vh;
+  width:100%;
+  background-color: antiquewhite;
+}
+
+.hero-container {
+  background-color: #454545;
+  padding: 2.5rem;
+  display: flex;
+}
+
+.image-container {
+  height: 12rem;
+  width: 12rem;
+  margin-right: 5rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.control-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.album-detail h1,p {
+  color: whitesmoke;
+  line-height: 1.5rem;
+}
+
+.album-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu-container ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  width: 40%;
+  color: whitesmoke;
+}
+
+.menu-container i {
+  margin: 0.2rem;
+}
