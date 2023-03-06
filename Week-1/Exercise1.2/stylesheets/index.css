@@ -136,7 +136,7 @@ table {
 
 .page-container {
   display: grid;
-  grid-template-columns: 5% 1fr;
+  grid-template-columns: 3% 1fr;
 }
 
 .side-menu {
@@ -205,3 +205,44 @@ img {
 .menu-container i {
   margin: 0.2rem;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #43689b;
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.player-container {
+  display: flex;
+
+}
+
+.player-content {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.player-image-container {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.player-control {
+  display: flex;
+  color: #f0f0f0;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+
+.control-container {
+  width: 50%;
+}
+
