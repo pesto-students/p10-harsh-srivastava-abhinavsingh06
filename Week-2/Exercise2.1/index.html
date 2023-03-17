@@ -10,18 +10,106 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap" rel="stylesheet">
   <title>Aquascaping</title>
 </head>
+
 <body class="container">
   <header class="headerContainer">
     <h1 class="heading">Aquascaping</h1>
     <span>The art of aesthetic aquariums</span>
+    <div class="design"></div>
   </header>
-  <section class="contentContainer">
-    <h1>hello</h1>
-    <div class="imageContainer">
-      <img src="./utils/Fish.svg" alt="" />
+  <section class="textContainer box">
+    <div class="card">
+      <div class="cardDetails">
+        <h1>Simplicity</h1>
+        <p>Aquascaping is all about taste and usually, less elements   is more. Very often people are tempted to incorporate
+        as many types of plants as possible, thinking that this would ensure a great visual variety, but most of the times it's the opposite.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cardDetails">
+      <h1>Variety</h1>
+      <p>
+        Keeping it simple does not mean using one type of plant only. Even if your intention is to create a theme, you
+        don’t want your aquascape to look boring. Remember, imagination plays a key role in aquascaping!
+      </p>
+      </div>
     </div>
   </section>
+  <section class="textContainer">
+    <div class="card">
+      <div class="cardDetails">
+        <h1>Proportion</h1>
+          <p>
+            It’s very important to give a sense of harmony to your tank, so try to have as much open space as filled space.
+            Avoid using only large leaf plants because they take from the proportion and depth of your aquascape.
+          </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cardDetails">
+      <h1>Persistence</h1>
+      <p>
+        Aquascaping can become frustrating, be sure of that! So be ready to deconstruct and reconstruct if there’s
+        something you
+        don’t like about your aquascape. The more you experiment, the better you will get at it.
+      </p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contentContainer">
+      <div class="content">
+        <div class="imageContainer">
+          <img src="./utils/banner.svg" alt="banner" />
+        </div>
+        <p class="para">
+          The craft of aquascaping has become increasingly popular in recent years. A comprehensive definition of the term
+          describes aquascaping as underwater gardening. It involves techniques of setting up, decorating and arranging a set of
+          natural elements such as: aquatic plants, stones, driftwood and substrates. These elements are combined in such a way
+          that it becomes aesthetically pleasing to human perception.
+        </p>
+      </div>
+  </section>
+
   <footer class="footerContainer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#6096B4" fill-opacity="1"
+          d="M0,128L48,160C96,192,192,256,288,261.3C384,267,480,213,576,208C672,203,768,245,864,218.7C960,192,1056,96,1152,80C1248,64,1344,128,1392,160L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+      </svg>
+    <div class="formContainer">
+      <form class="formWrapper">
+        <div class="formField">
+          <label for="firstName">
+            First Name:
+            <input type="text" placeholder="Enter first name"/>
+          </label>
+          <label for="lastName">
+            Last Name:
+            <input type="text" placeholder="Enter last name"/>
+          </label>  
+        </div>
+          <label for="email">
+            Email:
+            <input type="email" placeholder="Enter email"/>
+          </label>
+          <label for="phoneNumber">
+            Phone Number:
+            <input type="tel" placeholder="Enter phone number"/>
+          </label> 
+        <div class="formField">
+          <label for="password">
+            Password:
+            <input type="password" placeholder="Enter password"/>
+          </label>  
+          <label for="confirmPassword">
+            Confirm Password:
+            <input type="password" placeholder="Confirm your password"/>
+          </label>
+        </div>
+      </form>
+    </div>
 
   </footer>
 </body>
