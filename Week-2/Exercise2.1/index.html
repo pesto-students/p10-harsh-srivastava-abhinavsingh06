@@ -80,7 +80,21 @@
       </svg>
     <div class="formContainer">
       <form class="formWrapper">
-        <div class="formField">
+        <fieldset class="form__inputSet">
+          <legend>Title</legend>
+          <label class="form__inputSet__input">
+            <input type="radio" name="title" value="Mr.">
+            Mr.
+          </label>
+          <label class="form__inputSet__input">
+            <input type="radio" name="title" value="Mrs.">
+            Mrs
+          </label>
+          <label class="form__inputSet__input">
+            <input type="radio" name="title" value="Miss.">
+            Miss
+          </label>
+        </fieldset>
           <label for="firstName">
             First Name:
             <input type="text" placeholder="Enter first name"/>
@@ -89,7 +103,6 @@
             Last Name:
             <input type="text" placeholder="Enter last name"/>
           </label>  
-        </div>
           <label for="email">
             Email:
             <input type="email" placeholder="Enter email"/>
@@ -98,7 +111,6 @@
             Phone Number:
             <input type="tel" placeholder="Enter phone number"/>
           </label> 
-        <div class="formField">
           <label for="password">
             Password:
             <input type="password" placeholder="Enter password"/>
@@ -107,7 +119,6 @@
             Confirm Password:
             <input type="password" placeholder="Confirm your password"/>
           </label>
-        </div>
       </form>
     </div>
 
