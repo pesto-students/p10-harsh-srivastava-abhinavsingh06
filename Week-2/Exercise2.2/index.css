@@ -7,57 +7,98 @@
   align-items: center;
 }
 
+.box_wrapper {
+  display:grid;
+  grid-template-columns: auto auto;
+  position: relative;
+}
+
 h1 {
   position: absolute;
   z-index: -1;
-}
-
-.box_wrapper {
-  display:flex;
-  position: relative;
+  text-align: center;
+  top: 40%;
+  left: 40%;
 }
 
 .box {
   height: 6rem;
   width: 6rem;
   transform-origin: center center;
-  animation: move-and-rotate 5s ease-in-out infinite;
 }
 
 .box1 {
-  top: 0;
-  left: 0;
   background-color: red;
 }
 
 .box2 {
-  top: 0;
-  right: 0;
   background-color: yellow;
 }
 
-.box4 {
-  bottom: 0;
-  left: 0;
+.box3 {
   background-color: blue;
 }
 
-.box3 {
-  bottom: 0;
-  right: 0;
+.box4 {
   background-color: green;
 }
 
-@keyframes move-and-rotate {
-  0% {
-    transform: rotate(0deg) translateX(0) translateY(0);
+.box_wrapper:hover .box1 {
+  cursor: pointer;
+  animation: moveRed 1s linear 0s 1 forwards;
+}
+
+.box_wrapper:hover .box3 {
+  cursor: pointer;
+  animation: moveBlue 1s linear 0s 1 forwards;
+}
+
+.box_wrapper:hover .box2 {
+  cursor: pointer;
+  animation: moveYellow 1s linear 0s 1 forwards;
+}
+
+.box_wrapper:hover .box4 {
+  cursor: pointer;
+  animation: moveGreen 1s linear 0s 1 forwards;
+}
+
+@keyframes moveRed {
+  from {
+    transform: translateX(0rem) rotate(0deg);
   }
 
-  50% {
-    transform: rotate(180deg) translateX(150px)translateY(150px);
+  to {
+    transform: translateX(-5rem) rotate(90deg);
+  }
+}
+
+@keyframes moveBlue {
+  from {
+    transform: translateX(0rem) rotate(0deg);
   }
 
-  100% {
-    transform: rotate(360deg) translateX(0) translateY(0);
+  to {
+    transform: translateX(-5rem) rotate(-90deg);
+  }
+}
+
+@keyframes moveYellow {
+  from {
+    transform: translateX(0rem) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(5rem) rotate(-90deg);
+  }
+}
+
+@keyframes moveGreen {
+  from {
+    transform: translateX(0rem) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(5rem) rotate(90deg);
   }
 }
