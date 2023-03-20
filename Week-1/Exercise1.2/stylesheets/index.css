@@ -71,16 +71,16 @@ img {
   margin-bottom: 1.5rem;
 }
 
-.menu-container ul {
+.menu-container div {
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
-  width: 40%;
+  width: 30%;
   color: whitesmoke;
 }
 
 .menu-container i {
-  margin: 0.2rem;
+  margin: 0.1rem;
 }
 
 .footer-container {
