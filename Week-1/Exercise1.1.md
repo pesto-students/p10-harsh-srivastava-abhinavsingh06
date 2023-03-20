@@ -155,4 +155,4 @@ Overall, the process of translating a string in a URL to a webpage involves a co
 
 # Diagram
   
-  ![alt text](https://lucid.app/lucidspark/82cfb0aa-96f3-41f7-b834-a84d185ecaec/edit?viewport_loc=-1693%2C-1348%2C2576%2C1318%2C0_0&invitationId=inv_c2fa7ef6-9c5c-4371-a23a-1037dbe9b864)
+  ![alt text]([https://lucid.app/lucidspark/82cfb0aa-96f3-41f7-b834-a84d185ecaec/edit?viewport_loc=-1693%2C-1348%2C2576%2C1318%2C0_0&invitationId=inv_c2fa7ef6-9c5c-4371-a23a-1037dbe9b864](https://www.knowbe4.com/hubfs/How-The-Web-Works.jfif))
