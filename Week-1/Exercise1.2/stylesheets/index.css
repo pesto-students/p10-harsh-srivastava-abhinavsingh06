@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 3% 1fr;
+}
+
+.side-menu {
+  background-color: #f0f0f0;
+  left: 0;
+  top: 0;
+  height: 90vh;
+  width: 100%;
+}
+
+.side-menu-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-container {
+  height: 90vh;
+  width:100%;
+}
+
+.hero-container {
+  background-color: #454545;
+  padding: 2.5rem;
+  display: flex;
+}
+
+.image-container {
+  height: 12rem;
+  width: 12rem;
+  margin-right: 5rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.control-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.album-detail h1,p {
+  color: whitesmoke;
+  line-height: 1.5rem;
+}
+
+.album-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu-container div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+  width: 30%;
+  color: whitesmoke;
+}
+
+.menu-container i {
+  margin: 0.1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #43689b;
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.player-container {
+  display: flex;
+
+}
+
+.player-content {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.player-image-container {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.player-control {
+  display: flex;
+  color: #f0f0f0;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+
+.control-container {
+  width: 50%;
+}
+
+.table-container {
+  margin: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+td {
+  width: 26%;
+  padding: 1rem;
+}
+
+td button {
+  color: blue;
+  background-color: #f0f0f0;
+  padding: 0.3rem;
+  border: 0.1rem solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+i, tr, button {
+  cursor: pointer;
+}
+
