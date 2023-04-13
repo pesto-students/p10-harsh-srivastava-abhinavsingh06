@@ -1,0 +1,104 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box_wrapper {
+  display:grid;
+  grid-template-columns: auto auto;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+  top: 40%;
+  left: 40%;
+}
+
+.box {
+  height: 6rem;
+  width: 6rem;
+  transform-origin: center center;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: yellow;
+}
+
+.box3 {
+  background-color: blue;
+}
+
+.box4 {
+  background-color: green;
+}
+
+.box_wrapper:hover .box1 {
+  cursor: pointer;
+  animation: moveRed 1s linear 0s 1 forwards;
+}
+
+.box_wrapper:hover .box3 {
+  cursor: pointer;
+  animation: moveBlue 1s linear 0s 1 forwards;
+}
+
+.box_wrapper:hover .box2 {
+  cursor: pointer;
+  animation: moveYellow 1s linear 0s 1 forwards;
+}
+
+.box_wrapper:hover .box4 {
+  cursor: pointer;
+  animation: moveGreen 1s linear 0s 1 forwards;
+}
+
+@keyframes moveRed {
+  from {
+    transform: translateX(0rem) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-5rem) rotate(90deg);
+  }
+}
+
+@keyframes moveBlue {
+  from {
+    transform: translateX(0rem) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(-5rem) rotate(-90deg);
+  }
+}
+
+@keyframes moveYellow {
+  from {
+    transform: translateX(0rem) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(5rem) rotate(-90deg);
+  }
+}
+
+@keyframes moveGreen {
+  from {
+    transform: translateX(0rem) rotate(0deg);
+  }
+
+  to {
+    transform: translateX(5rem) rotate(90deg);
+  }
+}
